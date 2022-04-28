@@ -91,7 +91,7 @@ from tensorflow.keras.models import load_model
 model.save('VOC_resnetv2.h5', include_optimizer=True)
 model.save_weights('VOC_resnetv2_weights.h5')
 
-test_score = model.evaluate(test_set, batch_size)
+test_score = model.evaluate_generator(test_set, batch_size)
 print("[INFO] accuracy: {:.2f}%".format(test_score[1] * 100)) 
 print("[INFO] Loss: ",test_score[0])
 

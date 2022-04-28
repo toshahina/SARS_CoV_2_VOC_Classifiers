@@ -135,7 +135,7 @@ test_generator=test_datagen.flow_from_directory(test_dir,shuffle=False,
                                                    batch_size=batch_size)
 classes = test_generator.class_indices 
 
-score,accuracy =model.evaluate(test_generator,verbose=1)
+score,accuracy =model.evaluate_generator(test_generator,verbose=1)
 print("Test loss is {}".format(score))
 print("Test accuracy is {}".format(accuracy))
 

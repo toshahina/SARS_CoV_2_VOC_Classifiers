@@ -93,7 +93,7 @@ r = model.fit(
 from tensorflow.keras.models import load_model
 model.save('VOC_exception.h5', include_optimizer=True)
 model.save_weights('VOC_exception_weights.h5')
-test_score = model.evaluater(test_set, batch_size)
+test_score = model.evaluat_generator(test_set, batch_size)
 print("[INFO] accuracy: {:.2f}%".format(test_score[1] * 100)) 
 print("[INFO] Loss: ",test_score[0])
 

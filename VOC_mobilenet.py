@@ -97,7 +97,7 @@ model.save('VOC_mobilenet.h5', include_optimizer=True)
 
 model.save_weights('VOC_mobilenet_weights.h5')
 
-test_score = model.evaluate(test_set, batch_size)
+test_score = model.evaluate_generator(test_set, batch_size)
 print("[INFO] accuracy: {:.2f}%".format(test_score[1] * 100)) 
 print("[INFO] Loss: ",test_score[0])
 
