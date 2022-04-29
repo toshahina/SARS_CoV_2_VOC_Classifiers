@@ -24,8 +24,8 @@ The transfer learning models are available in the location</br>
 https://drive.google.com/drive/folders/18Twu_uKkm26JyuBPkSO10rOS7RY5tpRD?usp=sharing</br>
 
 ## How to predict SARS-CoV-2-VOC  using different models.
-1. Get a fasta sequence of  SARS-CoV-2-Virus of human origin (GISAID, NCBI Virus etc)
+1. Download fasta sequence of SARS-CoV-2 (GISAID, NCBI Virus etc).
 2. Preprocess fasta sequences (Remove sequences with N using Fasta_N_separator.py)
 3. Generate CGR images (Using CGR_generator.py)
-4. Choose a classifier (SARS_CoV_2_VOC-net_classifier.py, VGG16_voc_classifier.py, VGG19_voc_classifier.py, resnet50_voc_classifier.py, inceptionv3_voc_classifier.py, exception_voc_classifier.py, inceptionresnetv2_voc_classifier.py, mobilenet_voc_classifier.py and specify the location of the “model.h5 “of chosen classifier)
+4. Choose a classifier (SARS_CoV_2_VOC_Net_classifier.py, VGG16_voc_classifier.py, VGG19_voc_classifier.py, resnet50_voc_classifier.py, inceptionv3_voc_classifier.py, exception_voc_classifier.py, inceptionresnetv2_voc_classifier.py, mobilenet_voc_classifier.py and specify the location of the “model.h5 “of chosen classifier)
 5. Predict using the selected classifier
