@@ -19,8 +19,8 @@ Download the data set and give the location of train directory, validation direc
 <b>SARS_CoV_2_VOC-Net.h5 </b>: Deep learning model developed for classifying SARS-CoV-2-VOC.</br>
 <b>VGG16_voc.h5, VGG19_voc.h5, resnet50_voc.h5, inceptionv3_voc.h5, exception_voc.h5, inceptionresnetv2_voc.h5, mobilenet_voc.h5</b> : These are  deep learning models developed for classifying SARS-CoV-2-VOC using VGG16_voc.py, VGG19_voc_py, Resnet50_voc.py, Inceptionv3_voc.py, Exception_voc.py, InceptionResnetv2_voc.py and Mobilenet_voc.py respectively.</br>
 <b>SARS_CoV_2_VOC_Net_classifier.py </b>:SARS-CoV-2 variants of concern classifier/predictor</br>
-<b>VGG16_voc_classifier.py, VGG19_voc_classifier.py, resnet50_voc_classifier.py, inceptionv3_voc_classifier.py, exception_voc_classifier.py, inceptionresnetv2_voc_classifier.py, mobilenet_voc_classifier.py</b>: SARS-CoV-2 variants of concern classifier using transfer learning models</br>. 
-The transfer learning models (.h5) are available in the location given below</br>
+<b>VGG16_voc_classifier.py, VGG19_voc_classifier.py, resnet50_voc_classifier.py, inceptionv3_voc_classifier.py, exception_voc_classifier.py, inceptionresnetv2_voc_classifier.py, mobilenet_voc_classifier.py</b>: SARS-CoV-2 variants of concern classifier using transfer learning models.</br> 
+The SARS-CoV-2-VOC transfer learning models (.h5) are available in the location given below</br>
 https://drive.google.com/drive/folders/18Twu_uKkm26JyuBPkSO10rOS7RY5tpRD?usp=sharing</br>
 
 ## How to predict SARS-CoV-2-VOC  using different models.
